@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vistagram</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #fafafa;
+            color: #273037;
+            padding: 20px;
+            text-align: center;
+        }
+        header .profile-info {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 10px;
+            padding: 20px;
+        }
+        .spot {
+            width: 100%;
+            height: 300px;
+            background-color: #ccc;
+            background-size: cover;
+            background-position: center;
+            border-radius: 8px;
+        }
+        .spot-9-16 {
+            width: 100%;
+            height: 533px; /* 9:16 aspect ratio */
+            background-color: #ccc;
+            background-size: cover;
+            background-position: center;
+            border-radius: 8px;
+        }
+        .last-row {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 10px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Vistagram</h1>
+    <div class="profile-info">
+        <img src="https://media.glamour.com/photos/58333f1bd21c762b7072ba8a/1:1/w_2448,h_2448,c_limit/EMMA%20WATSON.jpg" alt="Profile Image">
+        <div>
+            <h2>emmawatson - Emma Watson</h2>
+            <p>450 Posts | 74M Followers | 121 Following</p>
+            <p>Hi</p>
+        </div>
+    </div>
+</header>
+
+<div class="container">
+    <!-- Première ligne avec 5 spots -->
+    <div class="spot" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrknzh_weE2G-9BQED-ozpZY7LT28rCtKsTA&s);"></div>
+    <div class="spot" style="background-image: url(https://www.creativefabrica.com/wp-content/uploads/2022/10/22/Emma-Watson-In-Sexy-Medieval-Clothing-42722207-1.png);"></div>
+    <div class="spot" style="background-image: url(https://i.pinimg.com/736x/7a/89/0d/7a890de8311d15971c0749e43abb400f.jpg);"></div>
+    <div class="spot" style="background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a179d6ef-1b19-4ca3-a934-29436412c76c/dg64w96-d3b930c9-1247-459e-bf70-a95d2d95a4c4.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2ExNzlkNmVmLTFiMTktNGNhMy1hOTM0LTI5NDM2NDEyYzc2Y1wvZGc2NHc5Ni1kM2I5MzBjOS0xMjQ3LTQ1OWUtYmY3MC1hOTVkMmQ5NWE0YzQuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.vih6qe3uBCzf_iSAn5x6Pl3b8Sqau9B7VAN0aG6P8rI);"></div>
+    <div class="spot" style="background-image: url(https://media.allure.com/photos/62fe7816f971d65fad627438/1:1/w_1887,h_1887,c_limit/emma%20watson%20pixie.jpg);"></div>
+
+    <!-- Deuxième ligne avec 5 spots -->
+    <div class="spot" style="background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Emma_Watson_2023_head_and_shoulders_1_%28cropped%29.jpg/640px-Emma_Watson_2023_head_and_shoulders_1_%28cropped%29.jpg);"></div>
+    <div class="spot" style="background-image: url(https://media.glamour.com/photos/58333f1bd21c762b7072ba8a/1:1/w_2448,h_2448,c_limit/EMMA%20WATSON.jpg);"></div>
+    <div class="spot" style="background-image: url(https://i.pinimg.com/236x/85/f5/a6/85f5a60b7a4fd2951dd50a6fa4bba240.jpg);"></div>
+    <div class="spot" style="background-image: url(https://photobrick.sg/wp-content/uploads/2022/12/2x2-000104-1-1.jpg);"></div>
+    <div class="spot" style="background-image: url(https://www.voici.fr/imgre/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fvoi.2Fvar.2Fvoi.2Fstorage.2Fimages.2Fmedia.2Fmultiupload-du-20-fevrier-2016.2Femma-watson.2F9613211-1-fre-FR.2Femma-watson.2Ejpg/1200x1200/quality/80/crop-from/center/emma-watson-s-eloigne-du-grand-ecran-pendant-1-an.jpeg);"></div>
+
+    <!-- Troisième ligne avec 5 spots -->
+    <div class="spot" style="background-image: url(https://wallpaperswide.com/download/emma_watson_harry_potter_premiere_2-wallpaper-1280x1280.jpg);"></div>
+    <div class="spot" style="background-image: url(https://media.glamour.com/photos/632dfed149f9a667e4ae50ff/1:1/w_3264,h_3264,c_limit/emma%20and%20tom.jpg);"></div>
+    <div class="spot" style="background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a179d6ef-1b19-4ca3-a934-29436412c76c/dg64wve-e80aadc0-1465-470f-961e-c497bba6b776.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2ExNzlkNmVmLTFiMTktNGNhMy1hOTM0LTI5NDM2NDEyYzc2Y1wvZGc2NHd2ZS1lODBhYWRjMC0xNDY1LTQ3MGYtOTYxZS1jNDk3YmJhNmI3NzYuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Tfqz9xLMu-nZZ7_Vk5T8VQu7YGcTHEzg64oDwGsoQcc);"></div>
+    <div class="spot" style="background-image: url(https://static.public.fr/wp-content/uploads/2024/03/Emma-Watson-sous-le-coup-d-une-enquete-par-le-service-d-immigration-britannique-1-1.webp);"></div>
+    <div class="spot" style="background-image: url(https://static.public.fr/wp-content/uploads/2024/03/Emma-Watson-sous-le-coup-d-une-enquete-par-le-service-d-immigration-britannique-1-1.webp);"></div>
+</div>
+
+<!-- Dernière ligne avec 7 spots 9:16 -->
+<div class="last-row">
+    <div class="spot-9-16" style="background-image: url(https://i.pinimg.com/236x/46/1c/83/461c831f8372665cd4b21687ac9c0a9b.jpg);"></div>
+    <div class="spot-9-16" style="background-image: url(https://www.parismatch.com/lmnr/r/343,514,000000,forcex,center-middle/img/var/pm/public/media/image/2022/03/02/13/EW5.jpg?VersionId=LxeNgYLmfWHleKrFtIdB7gzmrAxxlH9_);"></div>
+    <div class="spot-9-16" style="background-image: url(https://www.parismatch.com/lmnr/r/343,514,000000,forcex,center-middle/img/var/pm/public/media/image/2022/03/02/13/EW13.jpg?VersionId=1A.XZ6aPabfEiWRu7I7oJQ_h8mLm0vxr);"></div>
+    <div class="spot-9-16" style="background-image: url(https://i.pinimg.com/236x/9d/c8/e0/9dc8e0b3d6ad295e7910ee8ffda0cdc9.jpg);"></div>
+    <div class="spot-9-16" style="background-image: url(https://static1.purepeople.com/articles/9/14/68/09/@/1575158-emma-watson-agrave-paris-le-7-1200x0-2.jpg);"></div>
+    <div class="spot-9-16" style="background-image: url(https://www.parismatch.com/lmnr/r/343,514,000000,forcex,center-middle/img/var/pm/public/media/image/2022/03/02/13/EW9.jpg?VersionId=E5poIAS5b_bos0lao6CUlBC1.vV0q0kS);"></div>
+    <div class="spot-9-16" style="background-image: url(https://static1.purepeople.com/articles/9/14/68/09/@/1575157-emma-watson-agrave-paris-le-9-580x0-2.jpg);"></div>
+</div>
+
+</body>
+</html>

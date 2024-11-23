@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vistagram</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+        }
+
+        header {
+            background-color: #b80020;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        .profile-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 1rem 2rem;
+            background-color: white;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .profile-image img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 3px solid #b80020;
+        }
+
+        .profile-info {
+            flex: 1;
+            text-align: center;
+        }
+
+        .profile-info h1 {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .profile-stats {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 0.5rem;
+        }
+
+        .profile-stats div {
+            text-align: center;
+        }
+
+        .profile-stats div span {
+            display: block;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        .profile-bio {
+            text-align: center;
+            margin: 1rem 2rem;
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1rem;
+            padding: 1rem;
+        }
+
+        .gallery-item {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vistagram</h1>
+    </header>
+    <div class="profile-header">
+        <div class="profile-image">
+            <img src="https://yt3.googleusercontent.com/3b6c2ANSxeXsdFrcmryOVh7eRlGuvU-Ia4Ljvqu-h8ykKq2Itq_bWBkxsRdorpRB2x3ioSrEBg=s160-c-k-c0x00ffffff-no-rj">
+        </div>
+        <div class="profile-info">
+            <h1>@felixrouge360  - Mohammed Taher CHERKAOUI OMARI</h1>
+            <div class="profile-stats">
+                <div>
+                    <span>1</span>
+                    Posts
+                </div>
+                <div>
+                    <span>4</span>
+                    Followers
+                </div>
+                <div>
+                    <span>7</span>
+                    Following
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="profile-bio">
+        <p>I hope you'll be better #motivation #grades</p>
+    </div>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/motivation-1-%281%29-design-template-c3c859273d51911e5ba4aa5178575c93_screen.jpg?ts=1686420057">
+        </div>
+        <div class="gallery-item">
+            <img src="https://tutoratsante-strasbourg.org/wp-content/uploads/2021/03/Fiche-BE-motivation-1024x1024.png">
+        </div>
+        <div class="gallery-item">
+            <img src="https://www.tabloide.fr/wp-content/uploads/2021/12/Tableau-Motivation-Osez-vivre-1-1.jpg">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vistagram Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #1e2a38;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .profile-container {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+        }
+        .profile-container .profile-pic img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover; /* S'assure que l'image remplisse le cercle */
+        }
+        .profile-container .profile-info {
+            flex-grow: 1;
+            margin-left: 20px;
+        }
+        .profile-info h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .profile-info p {
+            color: gray;
+            margin: 5px 0 15px;
+        }
+        .stats {
+            display: flex;
+            gap: 20px;
+        }
+        .stats div {
+            text-align: center;
+        }
+        .stats div h2 {
+            margin: 0;
+            font-size: 20px;
+        }
+        .stats div p {
+            margin: 5px 0 0;
+            color: gray;
+        }
+        .gallery {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding: 20px;
+        }
+        .gallery div {
+            flex: 1;
+            min-width: calc(20% - 10px); /* Chaque bloc occupe environ 20% de la largeur */
+            aspect-ratio: 9 / 16; /* Maintient le ratio 9:16 */
+            overflow: hidden; /* Coupe les débordements d'image */
+            border-radius: 8px; /* Coins arrondis */
+        }
+        .gallery div img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ajuste l'image pour remplir l'espace sans distorsion */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vistagram</h1>
+    </header>
+    <div class="profile-container">
+        <div class="profile-pic">
+            <!-- L'image de profil peut être chargée depuis une URL -->
+            <img src="https://cdn.vox-cdn.com/thumbor/ak7ENU0_x5CidM1RHw-Hc9ryYsU=/0x170:2670x1950/1400x1400/filters:focal(0x170:2670x1950):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/39711790/455980854.0.jpg" alt="Profile Picture">
+        </div>
+        <div class="profile-info">
+            <h1>@cristiano - Cristiano Ronaldo</h1>
+            <p>SIUUUbscribe to my Youtube Channel @cristiano</p>
+            <div class="stats">
+                <div>
+                    <h2>3785</h2>
+                    <p>Posts</p>
+                </div>
+                <div>
+                    <h2>643 M</h2>
+                    <p>Followers</p>
+                </div>
+                <div>
+                    <h2>586</h2>
+                    <p>Following</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gallery">
+        <div>
+            <img src="https://w0.peakpx.com/wallpaper/125/408/HD-wallpaper-cr7-real-madrid-thumbnail.jpg" alt="Spot 1">
+        </div>
+        <div>
+            <img src="https://i.pinimg.com/474x/6a/cb/bf/6acbbfa92ce3011b891ed980c6c06630.jpg" alt="Spot 2">
+        </div>
+        <div>
+            <img src="https://w0.peakpx.com/wallpaper/662/815/HD-wallpaper-stay-calm-cr7-cristiano-football-player-portugal-real-marid-ronaldo.jpg" alt="Spot 3">
+        </div>
+        <div>
+            <img src="https://mfiles.alphacoders.com/850/850412.jpg" alt="Spot 4">
+        </div>
+        <div>
+            <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7bd2f4fc-1c76-4bf6-999f-e85e1d631ee2/dc5e9mo-67b22830-1c27-477f-8e52-c6724087334b.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzdiZDJmNGZjLTFjNzYtNGJmNi05OTlmLWU4NWUxZDYzMWVlMlwvZGM1ZTltby02N2IyMjgzMC0xYzI3LTQ3N2YtOGU1Mi1jNjcyNDA4NzMzNGIuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.xsitnTRBTsKwOp5Wr_Rxu6WDPh5QU8LpGumXSHq0kOc" alt="Spot 5">
+        </div>
+    </div>
+</body>
+</html>

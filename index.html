@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vistagram Profiles</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #1e2a38;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .profiles {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .profile-link {
+            display: flex;
+            align-items: center;
+            background: white;
+            border-radius: 10px;
+            padding: 10px;
+            width: 80%;
+            max-width: 600px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-decoration: none;
+            color: black;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .profile-link:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+        .profile-pic {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            overflow: hidden;
+            flex-shrink: 0;
+        }
+        .profile-pic img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .profile-info {
+            margin-left: 20px;
+        }
+        .profile-info h2 {
+            margin: 0;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vistagram Profiles</h1>
+    </header>
+    <div class="profiles">
+        <a href="cristiano%20-%20Vistagram.html" class="profile-link">
+            <div class="profile-pic">
+                <img src="https://cdn.vox-cdn.com/thumbor/ak7ENU0_x5CidM1RHw-Hc9ryYsU=/0x170:2670x1950/1400x1400/filters:focal(0x170:2670x1950):format(jpeg)/cdn.vox-cdn.com/uploads/chorus_image/image/39711790/455980854.0.jpg" alt="Cristiano Ronaldo">
+            </div>
+            <div class="profile-info">
+                <h2>@cristiano - Cristiano Ronaldo</h2>
+            </div>
+        </a>
+        <a href="Emma%20Watson-%20vistagram.html" class="profile-link">
+            <div class="profile-pic">
+                <img src="https://media.glamour.com/photos/58333f1bd21c762b7072ba8a/1:1/w_2448,h_2448,c_limit/EMMA%20WATSON.jpg" alt="Emma Watson">
+            </div>
+            <div class="profile-info">
+                <h2>emmawatson - Emma Watson</h2>
+            </div>
+        </a>
+        <a href="Mohammed%20Taher%20Cherkaoui%20Omari%20-%20Vistagram.html" class="profile-link">
+            <div class="profile-pic">
+                <img src="https://yt3.googleusercontent.com/3b6c2ANSxeXsdFrcmryOVh7eRlGuvU-Ia4Ljvqu-h8ykKq2Itq_bWBkxsRdorpRB2x3ioSrEBg=s160-c-k-c0x00ffffff-no-rj" alt="Mohammed Taher CHERKAOUI OMARI">
+            </div>
+            <div class="profile-info">
+                <h2>@felixrouge360 - Mohammed Taher CHERKAOUI OMARI</h2>
+            </div>
+        </a>
+    </div>
+</body>
+</html>
